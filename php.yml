@@ -1,0 +1,7 @@
+---
+- hosts: local
+  vars_files:
+    - roles/php/vars/main.yml
+  become: true
+  roles:
+    - { role: php }

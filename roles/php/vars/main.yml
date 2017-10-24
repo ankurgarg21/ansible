@@ -1,0 +1,15 @@
+php_memory_limit: "128M"
+php_max_execution_time: "90"
+php_upload_max_filesize: "256M"
+php_packages:
+  - php
+  - php-common
+  - php7.1
+  - php7.1-cli
+  - php7.1-common
+  - php7.1-fpm
+  - php7.1-json
+  - php7.1-opcache
+  - php7.1-readline
+ 
+
