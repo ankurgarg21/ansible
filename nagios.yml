@@ -1,0 +1,5 @@
+- hosts: local
+  vars_files:
+   - roles/nagios/vars/main.yml
+  roles:
+     - { role: nagios }
