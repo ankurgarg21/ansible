@@ -1,4 +1,5 @@
 - hosts: local
+  become: true
   vars_files:
    - roles/nagios/vars/main.yml
   roles:
