@@ -2,4 +2,4 @@
 - hosts: local
   become: true
   roles:
-    - { role: maven, maven_major: 3, maven_release: 3.5.0, maven_home_parent_directory: /opt }
+    - { role: maven, maven_major: 3, maven_release: 3.5.3, maven_home_parent_directory: /opt }
