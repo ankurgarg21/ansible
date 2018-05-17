@@ -24,7 +24,12 @@
   to operate the "/manager/html" web application.  If you wish to use this app,
   you must define such a user - the username and password are arbitrary.
 -->
-
+  <role rolename="admin-gui"/>
+  <role rolename="admin-script"/>
+  <role rolename="manager-jmx"/>
+  <role rolename="manager-status"/>
+  <role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
 {% for user in tomcat_ubuntu_users %}
   <user username="{{ user.name }}" password="{{ user.password }}" roles="{{ user.roles }}"/>
 {% endfor %}

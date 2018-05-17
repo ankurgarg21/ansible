@@ -7,7 +7,8 @@ tomcat_ubuntu_port: 8080
 tomcat_ubuntu_control_port: 8005
 tomcat_ubuntu_java_opts: -Djava.awt.headless=true -Xmx2048m -XX:+UseConcMarkSweepGC
 tomcat_ubuntu_catalina_opts:
-tomcat_ubuntu_users: []
+tomcat_ubuntu_users: 
+  - { name: admin, password: ankur, roles: "manager-gui,manager-status,manager-script,manager-jmx,admin-gui,admin-script" }
 tomcat_ubuntu_global_naming_resources:
 tomcat_ubuntu_jvm_route:
 tomcat_ubuntu_download_dir: /tmp/tomcat8

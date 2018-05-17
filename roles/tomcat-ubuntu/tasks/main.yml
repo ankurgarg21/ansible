@@ -103,6 +103,8 @@
     dest: /var/lib/tomcat8/conf/tomcat-users.xml
   notify:
     - restart tomcat
+  tags:
+    - users
 
 - name: Set Tomcat's JAVA_OPTS
   sudo: yes
