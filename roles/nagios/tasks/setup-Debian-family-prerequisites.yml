@@ -35,7 +35,7 @@
    - dnsutils
    - fping
    - libldap2-dev
-   - libpq-dev
+#   - libpq-dev
    - smbclient
    - gawk
 
